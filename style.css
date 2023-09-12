@@ -1,0 +1,96 @@
+.navigation{
+    /* background color for the navigation links */
+   color: antiquewhite; /*color for the navigation link*/
+   font-family:Arial; /*font for the navigation links*/
+   text-align:center;
+   font-weight: light;
+}
+   
+   .navigation ul {
+   list-style-type: none; /* Remove bullet points from the list */
+   padding: 0; /* Remove default padding)*/
+   margin: 0; /* Remove default padding)*/
+   }
+   
+   .navigation li{
+   display:inline; /*Putting the links side by side*/
+   margin-right: 56px; /*Creating space between the links*/
+   font-size: 25px; /*Create size for links*/
+   }
+   
+   .navigation a{
+   text-decoration: none; /*Removing undline from links*/
+   color: antiquewhite; /* Text color for navigation links*/
+   
+   }
+
+   .navigation a:hover{
+       color:#935116 
+       ;
+   }
+
+   body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place the video behind other content */
+}
+
+/* Style your content as needed */
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite; /* Text color for content over the video */
+}
+table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+
+   img{
+    width: 30%;
+    margin: 20px;
+    border-radius: 50%;
+   }
+  .center-image{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 600;
+    max-height: 700;
+  }
+  .centered-text {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+th, td {
+    
+}
+
+   footer{
+    text-align: center;
+   }
+
