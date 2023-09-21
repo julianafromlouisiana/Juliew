@@ -90,7 +90,36 @@ th, td {
     
 }
 
-   footer{
+form{
+    text-align: center;
+    color: antiquewhite;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.child{
+    width: 95px;
+    height: 95px;
+    background-color: rgb(215, 137, 155);
+    left: 200px;
+    top: 150px;
+    border-radius: 50%;
+    position:absolute;
+}
+
+.circle-two{
+        width: 95px;
+        height: 95px;
+        background-color: rgb(215, 137, 155);
+        left: 420px;
+        top: 230px;
+        border-radius: 50%;
+        position:absolute;
+}
+
+ footer{
     text-align: center;
    }
 
